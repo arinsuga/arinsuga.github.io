@@ -94,7 +94,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					<span class="icon-bar"></span>
 				  </button>
 					<div class="logo">
-						<h1><a class="navbar-brand" href="index.html"><span class="one">C</span>lassy Resume</a></h1>
+						<h1><a class="navbar-brand" href="index.html"><span class="one">A</span>rin Suga</a></h1>
 					</div>
 				</div>
 
@@ -131,23 +131,23 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 				<div class="col-md-7 w3ls-agile-left">
 					<div class="w3ls-agile-left-info">
 						<h4>Job Title</h4>
-						<p>Programmer / Web Developer</p>
+						<p>{{ site.about.job_title }}</p>
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Name</h4>
-						<p>John Mccoist</p>
+						<p>{{ site.about.my_name }}</p>
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Sex</h4>
-						<p>Male</p>
-					</div>
-					<div class="w3ls-agile-left-info">
-						<h4>Address</h4>
-						<p> 30, Golden Street, New Castle</p>
+						<p>{{site.about.sex}}</p>
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Email Address</h4>
-						<p><a href="mailto:example@email.com">mail@example.com</a></p>
+						<p><a href="mailto:{{ site.contact.mail }}">{{ site.contact.mail }}</a></p>
+					</div>
+					<div class="w3ls-agile-left-info">
+						<h4>Github</h4>
+						<p> <a href="{{ site.contact.github }}">{{ site.contact.github }}</a></p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
