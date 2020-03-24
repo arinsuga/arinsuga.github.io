@@ -3,8 +3,41 @@ about:
   sex: Male
   job_title: Application Consultant
   nationality: Indonesia
+  mail: arinsuga@gmail.com
+  phone: (+62) 003 003 0052
+  location: Indonesia
 contact:
   mail: arinsuga@gmail.com
   website: https://arinsuga.github.io/
   linkedin: https://www.linkedin.com/in/arin-suga-941076a5/
   github: https://github.com/arinsuga/
+gallery:
+  actup:
+    title      : ActUp
+    description: Apps for Corrective and Preventive Action
+    image      : images/galleryup/ActUp.png
+    githublink : https://arinsuga.github.io/actup/
+  kindup:
+    title      : KindUp
+    description: Apps for Preschool and Kindergarten
+    image      : images/galleryup/KindUp.png
+    githublink : https://arinsuga.github.io/kindup/
+  posup:
+    title      : PosUp
+    description: Apps for stock, warehouse, sales and payment management
+    image      : images/galleryup/PosUp.png
+    githublink : https://arinsuga.github.io/posup/
+  spayup:
+    title      : SpayUp
+    description: Apps for School Payment System
+    image      : images/galleryup/SpayUp.png
+    githublink : https://arinsuga.github.io/spayup/
+  taskup:
+    title      : TaskUp
+    description: Apps for School Payment System
+    image      : images/galleryup/TaskUp.png
+    githublink : https://arinsuga.github.io/taskup/
+counter:
+  clients   : 3
+  projects  : 10
+  experience: 19
